@@ -50,7 +50,7 @@ const players = [
       contractUntil: "2029-06-30",
     },
     photo:
-      "./mbape.jpg",
+      "mbape.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
     nationalityFlag: "https://flagcdn.com/w320/fr.png",
