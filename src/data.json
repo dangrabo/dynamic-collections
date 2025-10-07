@@ -21,7 +21,8 @@
       "marketValue": 180000000,
       "contractUntil": "2028-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/239/085/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/239/085/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
   },
   {
     "id": 2,
@@ -45,7 +46,8 @@
       "marketValue": 200000000,
       "contractUntil": "2029-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/231/747/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/231/747/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
   },
   {
     "id": 3,
@@ -69,7 +71,8 @@
       "marketValue": 25000000,
       "contractUntil": "2026-12-31"
     },
-    "photo": "https://cdn.sofifa.net/players/158/023/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/158/023/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/f/f2/Inter_Miami_CF_logo.svg"
   },
   {
     "id": 4,
@@ -93,7 +96,8 @@
       "marketValue": 150000000,
       "contractUntil": "2029-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/252/371/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/252/371/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
   },
   {
     "id": 5,
@@ -117,7 +121,8 @@
       "marketValue": 75000000,
       "contractUntil": "2027-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/192/985/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/192/985/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
   },
   {
     "id": 6,
@@ -141,7 +146,8 @@
       "marketValue": 160000000,
       "contractUntil": "2028-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/238/794/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/238/794/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
   },
   {
     "id": 7,
@@ -165,7 +171,8 @@
       "marketValue": 110000000,
       "contractUntil": "2028-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/202/126/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/202/126/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_München_logo_(2017).svg"
   },
   {
     "id": 8,
@@ -189,7 +196,8 @@
       "marketValue": 95000000,
       "contractUntil": "2028-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/233/419/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/233/419/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
   },
   {
     "id": 9,
@@ -213,7 +221,8 @@
       "marketValue": 100000000,
       "contractUntil": "2027-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/256/330/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/256/330/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg"
   },
   {
     "id": 10,
@@ -237,7 +246,8 @@
       "marketValue": 40000000,
       "contractUntil": "2027-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/227/796/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/227/796/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
   },
   {
     "id": 11,
@@ -261,7 +271,8 @@
       "marketValue": 55000000,
       "contractUntil": "2026-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/200/104/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/200/104/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg"
   },
   {
     "id": 12,
@@ -285,6 +296,7 @@
       "marketValue": 90000000,
       "contractUntil": "2027-06-30"
     },
-    "photo": "https://cdn.sofifa.net/players/231/478/25_120.png"
+    "photo": "https://cdn.sofifa.net/players/231/478/25_120.png",
+    "teamLogo": "https://upload.wikimedia.org/wikipedia/en/0/05/Inter_Milan_logo_2021.svg"
   }
 ]
