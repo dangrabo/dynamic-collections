@@ -22,7 +22,7 @@ const players = [
       contractUntil: "2028-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/418560-1695137434.jpg",
+      "./haaland.png",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
     nationalityFlag: "https://flagcdn.com/w320/no.png",
@@ -50,7 +50,7 @@ const players = [
       contractUntil: "2029-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/342229-1695137415.jpg",
+      "./mbape.jpg",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
     nationalityFlag: "https://flagcdn.com/w320/fr.png",
@@ -78,9 +78,9 @@ const players = [
       contractUntil: "2026-12-31",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/28003-1695137319.jpg",
+      "messi.png",
     teamLogo:
-      "https://upload.wikimedia.org/wikipedia/en/f/f2/Inter_Miami_CF_logo.svg",
+      "inter-m.png",
     nationalityFlag: "https://flagcdn.com/w320/ar.png",
   },
   {
@@ -106,7 +106,7 @@ const players = [
       contractUntil: "2029-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/581678-1695137448.jpg",
+      "jude.png",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
     nationalityFlag: "https://flagcdn.com/w320/gb.png",
@@ -134,7 +134,7 @@ const players = [
       contractUntil: "2027-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/88755-1695137354.jpg",
+      "kevin.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
     nationalityFlag: "https://flagcdn.com/w320/be.png",
@@ -162,7 +162,7 @@ const players = [
       contractUntil: "2028-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/371998-1695137438.jpg",
+      "vini.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
     nationalityFlag: "https://flagcdn.com/w320/br.png",
@@ -190,7 +190,7 @@ const players = [
       contractUntil: "2028-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/132098-1695137384.jpg",
+      "kane.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M%C3%BCnchen_logo_(2017).svg",
     nationalityFlag: "https://flagcdn.com/w320/gb.png",
@@ -218,7 +218,7 @@ const players = [
       contractUntil: "2028-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/357662-1695137422.jpg",
+      "rafa.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
     nationalityFlag: "https://flagcdn.com/w320/pt.png",
@@ -246,7 +246,7 @@ const players = [
       contractUntil: "2027-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/564195-1695137446.jpg",
+      "wirtz.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg",
     nationalityFlag: "https://flagcdn.com/w320/de.png",
@@ -274,7 +274,7 @@ const players = [
       contractUntil: "2027-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/315779-1695137402.jpg",
+      "puli.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
     nationalityFlag: "https://flagcdn.com/w320/us.png",
@@ -302,7 +302,7 @@ const players = [
       contractUntil: "2026-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/91845-1695137372.jpg",
+      "son.webp",
     teamLogo:
       "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
     nationalityFlag: "https://flagcdn.com/w320/kr.png",
@@ -330,9 +330,9 @@ const players = [
       contractUntil: "2027-06-30",
     },
     photo:
-      "https://img.a.transfermarkt.technology/portrait/header/406625-1695137427.jpg",
+      "lat.webp",
     teamLogo:
-      "https://upload.wikimedia.org/wikipedia/en/0/05/Inter_Milan_logo_2021.svg",
+      "inter.png",
     nationalityFlag: "https://flagcdn.com/w320/ar.png",
   },
 ];
