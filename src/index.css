@@ -65,3 +65,8 @@ footer {
 .club-img, .nation-img {
   width: 50px;
 }
+
+.position-c {
+  display: flex;
+  justify-content: space-between;
+}

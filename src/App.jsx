@@ -4,11 +4,15 @@ import PlayerCard from "./components/PlayerCard.jsx";
 import data from "./data.js";
 
 function App() {
-  const test = data[2];
   return (
     <>
       <Header />
-      <PlayerCard {...test} />
+      <div className="content">
+        {data.map((player) => {
+          return <PlayerCard {...player} />;
+        })}
+      </div>
+
       <Footer />
     </>
   );
