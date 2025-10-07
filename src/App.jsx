@@ -6,14 +6,18 @@ import data from "./data.js";
 function App() {
   return (
     <>
-      <Header />
-      <div className="content">
-        {data.map((player) => {
-          return <PlayerCard {...player} />;
-        })}
+      <div>
+        <Header />
       </div>
 
-      <Footer />
+      <div className="content">
+        {data.map((player) => {
+          return <PlayerCard key={player.id} {...player} />;
+        })}
+      </div>
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }
