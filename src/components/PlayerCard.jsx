@@ -9,14 +9,15 @@ function PlayerCard(data) {
                     <h3 className="player-rating">{data.overallRating}</h3>
                 </div>
                 <div className="pictures">
-                    <img src={data.photo} alt={`${data.name}-image`} className="player-img"/>
+                    <img src={encodeURI(data.photo)} alt={`${data.name}-image`} className="player-img"/>
                     <div className="team-country">
-                        <img src={data.teamLogo} alt={`${data.club}-logo`} className="club-img"/>
-                        <img src={data.nationalityFlag} alt={`${data.nationality}-flag`} className="nation-img"/>
+                        <img src={encodeURI(data.teamLogo)} alt={`${data.club}-logo`} className="club-img"/>
+                        <img src={encodeURI(data.nationalityFlag)} alt={`${data.nationality}-flag`} className="nation-img"/>
                     </div>
                 </div>
                 <div className="position-c">
-
+                    <p>{data.position}</p>
+                    <p>{data.isCaptain && ('C')}</p>
                 </div>
 
                 <Stats stats={data.stats} />
