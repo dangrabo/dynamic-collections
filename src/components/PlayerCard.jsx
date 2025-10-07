@@ -12,10 +12,14 @@ function PlayerCard(data) {
                     <img src={data.photo} alt={`${data.name}-image`} className="player-img"/>
                     <div className="team-country">
                         <img src={data.teamLogo} alt={`${data.club}-logo`} className="club-img"/>
-                        <img src="" alt={`${data.nationality}-flag`} className="nation-img"/>
+                        <img src={data.nationalityFlag} alt={`${data.nationality}-flag`} className="nation-img"/>
                     </div>
                 </div>
+                <div className="position-c">
 
+                </div>
+
+                <Stats stats={data.stats} />
             </div>
         </>
     )

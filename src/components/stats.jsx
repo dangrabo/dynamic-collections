@@ -1,6 +1,6 @@
 import React from "react";
 
-function stats({ stats }) {
+function stats( stats ) {
   return (
     <div className="table-container">
       <table className="table">
