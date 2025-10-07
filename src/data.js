@@ -192,7 +192,7 @@ const players = [
     photo:
       "kane.webp",
     teamLogo:
-      "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M%C3%BCnchen_logo_(2017).svg",
+      "bayern.png",
     nationalityFlag: "https://flagcdn.com/w320/gb.png",
   },
   {
