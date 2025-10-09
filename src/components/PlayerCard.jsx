@@ -1,9 +1,15 @@
 import Stats from "./stats.jsx";
 
 function PlayerCard(data) {
+
+  const rarity =
+    data.overallRating >= 91 ? "legendary" :
+    data.overallRating >= 89 ? "epic" :
+    data.overallRating >= 87 ? "rare" : "common";
+
   return (
     <>
-      <div className="container">
+      <div className={`container ${rarity}`}>
         <div className="name-rating">
           <h3 className="player-name">{data.name}</h3>
           <h3 className="player-rating">{data.overallRating}</h3>

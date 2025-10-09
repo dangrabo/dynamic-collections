@@ -8,7 +8,6 @@ body {
 
 header {
   background-color: rgb(171, 171, 171);
-
   height: 50px;
   display: flex;
   justify-content: center;
@@ -46,6 +45,22 @@ footer {
   margin: 25px;
   transition: 250ms;
   box-shadow: 0 2px 5px rgba(11, 0, 0, 0.5);
+}
+
+.legendary {
+  background: linear-gradient(45deg, rgb(28, 69, 255), rgb(255, 151, 169));
+}
+
+.epic {
+  background: linear-gradient(45deg, gold, rgb(255, 242, 167));
+}
+
+.rare {
+  background-color: gold;
+}
+
+.common {
+  background-color: silver;
 }
 
 .container:hover {
