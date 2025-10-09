@@ -83,6 +83,13 @@ footer {
 .position-c {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.captain {
+  color: gold;
+  background-color: black;
+  padding: 0 5px;
 }
 
 .content {

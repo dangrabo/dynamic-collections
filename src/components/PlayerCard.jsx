@@ -29,7 +29,7 @@ function PlayerCard(data) {
         </div>
         <div className="position-c">
           <p>{data.position}</p>
-          <p>{data.isCaptain && "C"}</p>
+          <p className={data.isCaptain ? "captain" : ""}>{data.isCaptain && "C"}</p>
         </div>
 
         <Stats {...data.stats} />
