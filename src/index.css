@@ -37,7 +37,6 @@ footer {
   width: 300px;
   height: 400px;
   background-color: gold;
-  border: 2px solid rgb(149, 126, 0);
   border-radius: 25px;
   padding: 10px;
   display: flex;
@@ -48,19 +47,23 @@ footer {
 }
 
 .legendary {
-  background: linear-gradient(45deg, rgb(28, 69, 255), rgb(255, 151, 169));
+  background: linear-gradient(45deg, rgb(28, 69, 255), rgb(203, 255, 203), rgb(255, 151, 169));
+  border: 2px solid rgb(255, 92, 119);
 }
 
 .epic {
   background: linear-gradient(45deg, gold, rgb(255, 242, 167));
+  border: 2px solid gold;
 }
 
 .rare {
-  background-color: rgb(224, 191, 0);
+  background-color: rgb(236, 201, 0);
+  border: 2px solid black;
 }
 
 .common {
   background-color: silver;
+  border: 2px solid grey;
 }
 
 .container:hover {
