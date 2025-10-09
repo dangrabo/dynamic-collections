@@ -1,15 +1,18 @@
 import Stats from "./stats.jsx";
 
-function PlayerCard(data) {
-
+function PlayerCard(...data) {
   const rarity =
-    data.overallRating >= 91 ? "legendary" :
-    data.overallRating >= 89 ? "epic" :
-    data.overallRating >= 87 ? "rare" : "common";
+    data.overallRating >= 91
+      ? "legendary"
+      : data.overallRating >= 89
+      ? "epic"
+      : data.overallRating >= 87
+      ? "rare"
+      : "common";
 
   return (
     <>
-      <div className={`container ${rarity}`}>
+      <div className={`container`}>
         <div className="name-rating">
           <h3 className="player-name">{data.name}</h3>
           <h3 className="player-rating">{data.overallRating}</h3>
@@ -35,10 +38,12 @@ function PlayerCard(data) {
         </div>
         <div className="position-c">
           <p>{data.position}</p>
-          <p className={data.isCaptain ? "captain" : ""}>{data.isCaptain && "C"}</p>
+          <p className={data.isCaptain ? "captain" : ""}>
+            {data.isCaptain && "C"}
+          </p>
         </div>
 
-        <Stats {...data.stats} />
+        <Stats {...data} />
       </div>
     </>
   );
